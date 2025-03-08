@@ -16,7 +16,7 @@ Este repositório contém um script Python para explorar vulnerabilidades de **B
    
 2. **Configure o exploit com os parametros de ataque**
 -- Linha 97:
-"Configurações do ataque
+"Configurações do ataque<br>
 url = "https://url.com"<br>
 max_requests = 1000 -- Valor limite da requisição no pool<br>
 status_check = 500 -- Status de retorno<br>
