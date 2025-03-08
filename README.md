@@ -26,3 +26,8 @@ tamanho_senha = 20  # Defina o comprimento estimado da senha" -- Tamanho da senh
 3. **Execute o exploit:**
    ```bash
    python3 fuzzer_for_blind_sqli.py
+
+
+⚠️ Aviso Legal
+
+Este script é apenas para fins educacionais e de teste em ambientes controlados. Nunca use este código em sistemas sem permissão explícita. O uso indevido pode resultar em consequências legais.
