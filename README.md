@@ -1,3 +1,7 @@
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 # Blind SQL Injection Exploit
 
 Este repositório contém um script Python para explorar vulnerabilidades de **Blind SQL Injection** em uma aplicação web. O script é projetado para descobrir senhas de usuários de forma incremental, testando caracteres um por um.
