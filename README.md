@@ -4,6 +4,10 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](L
 
 # Blind SQL Injection Exploit
 
+⚠️ Aviso Legal
+
+Este script é apenas para fins educacionais e de teste em ambientes controlados. Nunca use este código em sistemas sem permissão explícita. O uso indevido pode resultar em consequências legais.
+
 Este repositório contém um script Python para explorar vulnerabilidades de **Blind SQL Injection** em uma aplicação web. O script é projetado para descobrir senhas de usuários de forma incremental, testando caracteres um por um.
 
 ## 📋 Requisitos ##
@@ -30,8 +34,3 @@ tamanho_senha = 20  # Defina o comprimento estimado da senha" -- Tamanho da senh
 3. **Execute o exploit:**
    ```bash
    python3 fuzzer_for_blind_sqli.py
-
-
-⚠️ Aviso Legal
-
-Este script é apenas para fins educacionais e de teste em ambientes controlados. Nunca use este código em sistemas sem permissão explícita. O uso indevido pode resultar em consequências legais.
