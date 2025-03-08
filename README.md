@@ -15,8 +15,8 @@ Este repositório contém um script Python para explorar vulnerabilidades de **B
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/sqli-exploit.git
-   cd sqli-exploit
+   git clone https://github.com/LuizManezzi/tools_fuzzer.git
+   cd tools_fuzzer.git
    
 2. **Configure o exploit com os parametros de ataque**
 -- Linha 97:
